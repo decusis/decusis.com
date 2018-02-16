@@ -16,6 +16,7 @@
     <link rel="shortcut icon" href="/images/D.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
     <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Decusis</title>
       <style>
@@ -31,9 +32,17 @@
           body {
             font-family: Montserrat, serif;
           }
-          h1, h2, h3, .mission-statement {
+          h1, h2, h3 {
               font-family: Avenir, serif;
               color: var(--dark-blue);
+          }
+          p.mission-statement {
+              margin-top:10px;
+              font-family: Montserrat, serif;
+              font-size: 22px;
+          }
+          p.mission-statement span.highlight {
+              font-weight: bold;
           }
           span.highlight {
               background-color:var(--yellow);
@@ -54,16 +63,16 @@
               color:var(--dark-blue);
           }
           #mc_embed_signup{
-              background:#fff;
+              
               clear:left;
-              font:14px Helvetica,Arial,sans-serif;
+              font:14px Montserrat,sans-serif;
               width:100%;
           }
           #mc_embed_signup input.button {
               background-color:black;
           }
           #bottom-bar {
-              background-color: var(--dark-blue);
+              background-color: var(--light-blue);
               color:white;
               text-align:center;
               font-family: Avenir, serif;
@@ -82,7 +91,7 @@
       </button>
       <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#"><span>Network</span></a>
+          <a class="nav-item nav-link" href="#"><span>Network</span></a>
           <a class="nav-item nav-link" href="#"><span>Education</span></a>
           <a class="nav-item nav-link" href="#"><span>Capital</span></a>
           <a class="nav-item nav-link" href="#"><span>About</span></a>
@@ -96,10 +105,11 @@
         <div class="media">
           <img src="images/logo.svg" width="172" height="240" class="align-self-center mr-3" alt="Decusis">
             <div class="media-body">
-                <h2><span class="highlight">Decusis is a full-stack organization committed to advancing the crypto ecosystem through knowledge, network and capital.</span></h2>
-                <p class="mission-statement">In 2008, the publication of the <a href="https://bitcoin.org/bitcoin.pdf" target="_blank">research paper introducing bitcoin</a> gave birth to <i>cryptoeconomics</i>, a new field that will force us to rethink how value is being created, captured and distributed over the coming years. It will impact not only economy but also politics and society at large.</p>
+                <h1>Decusis</h1><h2><span class="highlight">The Crypto Knowledge Company</span></h2>
+                <p class="mission-statement">We help the crypto community <span class="highlight">&nbsp;understand&nbsp;</span>, <span class="highlight">&nbsp;connect&nbsp;</span> &amp; <span class="highlight">&nbsp;succeed&nbsp;</span></p>
             </div>
         </div>
+        <p class="mission-statement">In 2008, the publication of the <a href="https://bitcoin.org/bitcoin.pdf" target="_blank">research paper introducing bitcoin</a> gave birth to <i>cryptoeconomics</i>, a new field that will force us to rethink how value is being created, captured and distributed over the coming years. It will impact not only economy but also politics and society at large.</p>
       </div>
       
       
@@ -120,7 +130,18 @@
       <!--<div style="text-align:right;font-size:10px;font-style:italic;margin-bottom:-15px;margin-right:-15px">A BFF of The Family <a href="https://www.thefamily.co" target="_blank"><img src="/images/TF.png" height="25px"></a></div>-->
     </div>
       <div class="fixed-bottom" id="bottom-bar">
-          DECUSIS C'EST D'LA BOMBE BEBE
+          
+              <!-- Begin MailChimp Signup Form -->
+        <div id="mc_embed_signup">
+        <form action="https://decusis.us17.list-manage.com/subscribe/post?u=07c0fb790f2f93710a7a39af2&amp;id=23111b3bbc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_07c0fb790f2f93710a7a39af2_23111b3bbc" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </div>
+        </form>
+        </div>
+        <!-- End mc_embed_signup-->
       </div>
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
