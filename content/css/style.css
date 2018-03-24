@@ -142,8 +142,8 @@ p{
 
 /************main css styling here*************/
 
-.logodeciusis{}
-.logodeciusis img{
+.logodecusis{}
+.logodecusis img{
 	width:100%;
 	height:100px;
 }
@@ -265,7 +265,7 @@ p{
 }
 
 .footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
 }
@@ -416,7 +416,7 @@ ABOUT PAGE CSS STYLING HERE
 
 @media (max-width: 575px) { 
 .homesectionarea {
-    padding: 40px 0px;
+    padding: 20px 0px;
 }
 	
 .decusislogobig{
@@ -425,7 +425,7 @@ ABOUT PAGE CSS STYLING HERE
 }	
 .decusislogobig img{
 	margin:0px auto;
-	width:60%;
+	width:30%;
 }
 	
 .connectmeetupbox{
