@@ -194,6 +194,9 @@ p{
 .main_collpasarea ul li.getthenewsbutton{
 	margin-right:0px!important;
 }
+.main_collpasarea ul li.getthenewsbutton a:hover:after {
+    background: #000043;
+}
 .main_collpasarea ul li.getthenewsbutton a {
 	background: #000043;
 	color: #fff !important;
@@ -212,11 +215,16 @@ p{
 
 
 .homesectionarea{
-	padding: 20px 0px;
+	padding: 0px 0px;
 }
 .decusislogobig{}
 .decusisTextarea{}
-.decusisTextarea h1,
+.decusisTextarea h1 {
+    font-weight: 700;
+    font-size:50px;
+	text-transform: inherit;
+	position:relative;
+}
 .decusisTextarea h2{
 	font-weight: 700;
 	text-transform: inherit;
@@ -416,7 +424,7 @@ ABOUT PAGE CSS STYLING HERE
 
 @media (max-width: 575px) { 
 .homesectionarea {
-    padding: 20px 0px;
+    padding: 0px 0px;
 }
 	
 .decusislogobig{

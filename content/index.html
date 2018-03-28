@@ -2,11 +2,34 @@
 title: Home
 home: true
 ---
-<main role="main" class="homesectionarea container">
+<style>
+    .decusisTextarea p {
+        text-align: justify;
+        font-size:16px;
+    }
+    .card a:hover:after {
+        background: #FFDD00;
+        position: absolute;
+        content:"";
+        width:100%;
+        height:5%;
+        bottom:0;
+        left:0;
+        z-index: 1;
+    }
+    .card-title-button {
+        font-size:20px;
+        font-weight: bold;
+    }
+    .card-title-button a:link, .card-title-button a:visited {
+        color: rgb(0,0,67);
+    }
+</style>
+<main role="main" class="homesectionarea">
     <div class="container">
         <div class="row">
             <div class="col-sm-3">
-                <div class="decusislogobig">
+                <div class="decusislogobig"><br/>
                     <img src="/img/DECUSIS_LOGO.svg" class="img-fluid">
                 </div>
             </div>
@@ -15,12 +38,59 @@ home: true
                     <h1 class="d-none d-sm-block">Decusis</h1>
                     <h2 class="homehalfcolor">The Crypto Knowledge Company</h2>
                     <p>
-                        In 2008, the publication of the research paper introducing bitcoin gave birth to crypto-economics. This new field forces everyone to rethink how value is being created, captured and distributed. It goes beyond economy, tackling politics and society at large.
+                        In 2008, the publication of the research paper introducing <a href="https://bitcoin.org/bitcoin.pdf" target="_blank">bitcoin</a> gave birth to crypto-economics. This new field forces everyone to rethink how value is being created, captured and distributed. It goes beyond economy, tackling politics and society at large. In this environment, knowledge is the highest competitive edge one can develop.
                     </p>
-                    <p>
-                        Now knowledge is the highest competitive edge you can develop. But knowledge in the crypto field is very scattered across different industries and skills. It’s getting harder to identify and seize the best business opportunities and investments.
+                    <p class="slogan">
+                        Decusis provides education, network and capital to help you get ahead.
                     </p>
-                    <h3>We build knowledge that helps you learn, connect &amp; succeed</h3>
+                    <br/><br/>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card">
+                          <a href="/connect/"><img class="card-img-top" src="/img/connect.png" alt="Connect"></a>
+<!--
+                          <div class="card-body">
+                            <h5 class="card-title">Connect</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                          </div>
+-->
+                          <div class="card-footer text-center">
+                              <span class="card-title-button"><a href="/connect/">Connect</a></span>
+                          </div>
+                        </div><br/>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <a href="/learn/"><img class="card-img-top" src="/img/learn.jpg" alt="Card image cap"></a>
+<!--
+                          <div class="card-body">
+                            <h5 class="card-title">Learn</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                          </div>
+-->
+                            <div class="card-footer text-center">
+                                  <span class="card-title-button"><a href="/learn/">Learn</a></span>
+                            </div>
+                        </div><br/>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                          <a href="/invest/"><img class="card-img-top" src="/img/invest.jpg" alt="Card image cap"></a>
+<!--
+                          <div class="card-body">
+                            <h5 class="card-title">Invest</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                          </div>
+-->
+                          <div class="card-footer text-center">
+                              <span class="card-title-button"><a href="/invest/">Invest</a></span>
+                          </div>
+                        </div><br/>
+                    </div>
                 </div>
             </div>
         </div>
