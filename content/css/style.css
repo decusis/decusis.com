@@ -30,6 +30,10 @@ html{
 	outline:none !important;
 }
 
+#mc-embedded-subscribe {
+    background-color: #000043;
+}
+
 body{
 	
     font-family: 'Open Sans', sans-serif;
