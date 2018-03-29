@@ -221,7 +221,12 @@ p{
 .homesectionarea{
 	padding: 0px 0px;
 }
-.decusislogobig{}
+.decusislogobig{
+    position:fixed;
+    width:15%;
+    margin:0 auto;
+    
+}
 .decusisTextarea{}
 .decusisTextarea h1 {
     font-weight: 700;
@@ -240,11 +245,13 @@ p{
 }
 .decusisTextarea p{
 	margin:20px 0px;
+    text-align: justify;
+    font-size:16px;
 }
 
 .abouthalfcolor:after,
 .investhalfcolor:after,
-.learhalfcolor:after,
+.learnhalfcolor:after,
 .connecthalfcolor:after,
 .homehalfcolor:after{
 	content: "";
@@ -261,15 +268,15 @@ p{
 }
 
 .connecthalfcolor:after{
-	width: 68%;
+	width: 90%;
 }
 
-.learhalfcolor:after{
-	width: 54%;
+.learnhalfcolor:after{
+	width: 72%;
 }
 
 .investhalfcolor:after{
-	width: 50%;
+	width: 66%;
 }
 
 .abouthalfcolor:after{
@@ -433,6 +440,7 @@ ABOUT PAGE CSS STYLING HERE
 	
 .decusislogobig{
 	text-align: center;
+    display:none;
 
 }	
 .decusislogobig img{
