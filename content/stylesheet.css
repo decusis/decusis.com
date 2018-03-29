@@ -42,9 +42,7 @@ a:hover {
 
 #main p {
   margin: 20px 0;
-
-  font-size: 15px;
-
+  font-size: 16px;
   line-height: 20px;
 }
 
@@ -96,6 +94,5 @@ a:hover {
 
 #sidebar li {
   font-size: 14px;
-
   line-height: 20px;
 }
