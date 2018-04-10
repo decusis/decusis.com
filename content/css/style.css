@@ -455,11 +455,14 @@ ABOUT PAGE CSS STYLING HERE
 
 
 @media (max-width: 575px) { 
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
 .homesectionarea {
     padding: 0px 0px;
 }
 .decusislogosmall{
-    width:40%;
+    width:25%;
     margin:0 auto;
 }
 .decusislogobig{
@@ -479,33 +482,20 @@ ABOUT PAGE CSS STYLING HERE
 	padding-left:10px!important;
 }
 	
-
 .singleexpertbox{
 	margin-bottom:15px;
 }
 	
-	
 .decusisTextarea h2{
 	font-size:20px;
 }
-.homehalfcolor:after{
-	width: 94%;
-	height: 60%;
-}
-	
-.connecthalfcolor::after {
-	width: 85%;
+.homehalfcolor,
+.connecthalfcolor,
+.learnhalfcolor,
+.investhalfcolor,
+.abouthalfcolor {
+	background-color:#FFDD00;
 }	
-.learhalfcolor:after{
-	width: 90%;
-}
-	
-.investhalfcolor::after {
-	width: 82%;
-}	
-.abouthalfcolor::after {
-	width: 70%;
-}
 .connectemailsubs:after{
     background: none;
 }
@@ -515,30 +505,29 @@ ABOUT PAGE CSS STYLING HERE
 @media (min-width: 576px) and (max-width: 767px) {
 .connectemailtext p{
 	text-align: left;
-}	
-
+}
 .main_collpasarea ul li a{
 	padding-left:10px!important;
 }
 .decusisTextarea h2{
 	font-size:20px;
 }
+.connecthalfcolor {
+	background-color:#FFDD00;
+}
 .homehalfcolor:after{
 	width: 88%;
 	height: 60%;
 }	
-.learhalfcolor:after{
-	width: 70%;
+.learnhalfcolor:after{
+	width: 88%;
 }	
-	
 .investhalfcolor::after {
 	width: 60%;
 }
 .abouthalfcolor::after {
-	width: 50%;
+	width: 65%;
 }	
-	
-	
 }
 
 
@@ -546,25 +535,25 @@ ABOUT PAGE CSS STYLING HERE
 .main_collpasarea ul li a{
 	padding-left:10px!important;
 }	
-
 .decusisTextarea h2{
 	font-size:26px;
+}
+.connecthalfcolor {
+	background-color:#FFDD00;
 }
 .homehalfcolor:after{
 	width: 85%;
 	height: 60%;
 }	
-.learhalfcolor:after{
-	width: 64%;
+.learnhalfcolor:after{
+	width: 84%;
 }
 .investhalfcolor::after {
 	width: 58%;
 }
 .abouthalfcolor::after {
-	width: 47%;
+	width: 62%;
 }	
-	
-	
 }
 
 
@@ -574,14 +563,12 @@ ABOUT PAGE CSS STYLING HERE
 	width: 85%;
 	height: 60%;
 }
-.connecthalfcolor:after{
-	width: 80%;
+.connecthalfcolor {
+	background-color:#FFDD00;
 }
-	
-.learhalfcolor:after{
-	width: 54%;
-}
-	
+.learnhalfcolor:after{
+	width: 86%;
+}	
 .learhalfcolor:after{
 	width: 64%;
 }
@@ -589,7 +576,7 @@ ABOUT PAGE CSS STYLING HERE
 	width: 59%;
 }	
 .abouthalfcolor::after {
-	width: 48%;
+	width: 64%;
 }	
 	
 }
