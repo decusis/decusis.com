@@ -34,6 +34,12 @@ html{
     background-color: #000043;
 }
 
+@media (min-width: 2000px) {
+    .container {
+        max-width: 1600px;
+    }
+}
+
 body{
 	
     font-family: 'Open Sans', sans-serif;
@@ -65,13 +71,16 @@ a{
 button,
 button:hover,
 a,
-a:hover{
+a:hover,
+a:visited {
 	text-decoration:none !important;
 	-moz-transition: all 0.9s ease 0s;
 	-webkit-transition: all 0.9s ease 0s;
 	-ms-transition: all 0.9s ease 0s;
 	-o-transition: all 0.9s ease 0s;
 	transition: all 0.9s ease 0s;
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 a:focus{
 	outline:none !important;
@@ -277,7 +286,7 @@ p{
 }
 
 .investhalfcolor:after{
-	width: 66%;
+	width: 46%;
 }
 
 .abouthalfcolor:after{
